@@ -27,16 +27,16 @@ DEBUG = True
 
 ALLOWED_HOSTS = ["*"]
 
-CSRF_TRUSTED_ORIGINS = [
-    "https://gregarious-crostata-81a5b1.netlify.app",
+CORS_ALLOWED_ORIGINS = [
+    "https://shimmering-shortbread-3ef326.netlify.app",
     "https://smart-task-analyzer-g3nf.onrender.com"
 ]
 
 
 
-CORS_ALLOWED_ORIGINS = [
-    "https://gregarious-crostata-81a5b1.netlify.app",    # your Netlify site
-    "https://smart-task-analyzer-g3nf.onrender.com",     # your Render backend
+CSRF_TRUSTED_ORIGINS = [
+    "https://shimmering-shortbread-3ef326.netlify.app",
+    "https://smart-task-analyzer-g3nf.onrender.com"
 ]
 
 
