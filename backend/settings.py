@@ -28,7 +28,7 @@ DEBUG = True
 ALLOWED_HOSTS = [
     "localhost",
     "127.0.0.1",
-    "smart-task-analyzer-g3nf.onrender.com",
+    "https://smart-task-analyzer-g3nf.onrender.com",
 ]
 
 
