@@ -11,7 +11,7 @@ async function analyzeTasks() {
   }
   const payload = { tasks, strategy };
   try {
-    const res = await fetch('http://127.0.0.1:8000/api/tasks/analyze/', {
+    const res = await fetch('https://smart-task-analyzer-69x4.onrender.com/', {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify(payload)
