@@ -11,7 +11,8 @@ async function analyzeTasks() {
   }
   const payload = { tasks, strategy };
   try {
-    const res = await fetch("https://smart-task-analyzer-g3nf.onrender.com/api/tasks/analyze/", {
+    const res = await fetch("https://smart-task-analyzer-g3nf.onrender.com/api/tasks/suggest/", {
+
 
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
