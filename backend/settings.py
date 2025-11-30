@@ -26,16 +26,19 @@ SECRET_KEY = 'django-insecure-getr-l$jw$dvtn(!)o0sdvn3d*#d-1-xob9t+b=sgkm3b8-o!)
 DEBUG = True
 
 ALLOWED_HOSTS = ["*"]
+
 CSRF_TRUSTED_ORIGINS = [
     "https://gregarious-crostata-81a5b1.netlify.app",
-    "https://smart-task-analyzer-g3nf.onrender.com",
+    "https://smart-task-analyzer-g3nf.onrender.com"
 ]
+
 
 
 CORS_ALLOWED_ORIGINS = [
-    "https://gregarious-crostata-81a5b1.netlify.app",
-    "https://smart-task-analyzer-g3nf.onrender.com",
+    "https://gregarious-crostata-81a5b1.netlify.app",    # your Netlify site
+    "https://smart-task-analyzer-g3nf.onrender.com",     # your Render backend
 ]
+
 
 
 
@@ -134,4 +137,3 @@ STATIC_URL = 'static/'
 # https://docs.djangoproject.com/en/5.2/ref/settings/#default-auto-field
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
-CORS_ALLOW_ALL_ORIGINS = True
